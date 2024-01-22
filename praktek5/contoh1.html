@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+        //buat variable let dengan inputan 
+      let nilaiAkhir = prompt("Masukkan Nilai Akhir");
+      if (nilaiAkhir >= 80 && nilaiAkhir <= 100) {
+        document.write(`Nilai Akhir Anda A (${nilaiAkhir})`);
+      } else if (nilaiAkhir >= 70 && nilaiAkhir <= 80) {
+        document.write(`Nilai Akhir Anda B (${nilaiAkhir})`);
+      } else if (nilaiAkhir >= 60 && nilaiAkhir <= 70) {
+        document.write(`Nilai Akhir Anda C (${nilaiAkhir})`);
+      } else {
+        document.write("Anda Belum mengikuti Ujian");
+      }
+    </script>
+  </body>
+</html>
